@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5e038acb3cc1d024b718c7ab474eeb5dfd6eb3a0ffecc96b67b29b761b6f84b0"
+            "sha256": "81d97ae28fb532b3f33389dcbb2e110c7075daa09860e8964fdb6f20b0e98713"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -343,6 +343,23 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==1.9.0"
+        },
+        "elastic-transport": {
+            "hashes": [
+                "sha256:16339d392b4bbe86ad00b4bdeecff10edf516d32bc6c16053846625f2c6ea250",
+                "sha256:5d4bb6b8e9d74a9c16de274e91a5caf65a3a8d12876f1e99152975e15b2746fe"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==8.13.1"
+        },
+        "elasticsearch": {
+            "hashes": [
+                "sha256:aa2490029dd96f4015b333c1827aa21fd6c0a4d223b00dfb0fe933b8d09a511b",
+                "sha256:cef8ef70a81af027f3da74a4f7d9296b390c636903088439087b8262a468c130"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==8.14.0"
         },
         "exceptiongroup": {
             "hashes": [
@@ -771,7 +788,7 @@
                 "sha256:fbd6acc766814ea6443628f4e6751d0da6593dae29c08c0b2606164db026970c",
                 "sha256:feff59f27338135776f6d4e2ec7aeeac5d5f7a08a83e80869121ef8164b74af9"
             ],
-            "markers": "python_version >= '3.9'",
+            "markers": "python_version < '3.11'",
             "version": "==2.0.0"
         },
         "openai": {
@@ -1427,11 +1444,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:01a1e793faa5bd89abc851fa15d0a0db26f160890c7102cd8dce643e886b47f5",
-                "sha256:d9b8b771455a97c8a9f3ab3448ebe0b29b5e105f1228bba41028be116985a267"
+                "sha256:937a48c7cdb7a21eb53cd7f9b59e525503aa8abaf3584c730dc5f7a5bec3a650",
+                "sha256:a58a8fde0541dab0419750bcc521fbdf8585f6e5cb41909df3a472ef7b81ca95"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==70.1.0"
+            "version": "==70.1.1"
         },
         "six": {
             "hashes": [
