@@ -4,6 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+tqdm = "*"
+openai = "*"
+jupyter = "*"
+notebook = "*"
+requests = "*"
+pandas = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
