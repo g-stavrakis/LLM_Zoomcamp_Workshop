@@ -12,6 +12,7 @@ requests = "*"
 pandas = "*"
 scikit-learn = "*"
 elasticsearch = "*"
+streamlit = "*"
 
 [dev-packages]
 
