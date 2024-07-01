@@ -13,6 +13,7 @@ pandas = "*"
 scikit-learn = "*"
 elasticsearch = "*"
 streamlit = "*"
+urllib3 = "*"
 
 [dev-packages]
 

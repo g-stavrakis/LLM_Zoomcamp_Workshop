@@ -13,6 +13,12 @@ st.write("## This will be a simple chatbot user interface")
 # Initialize the client 
 es_client = Elasticsearch('http://localhost:9200') # This is the port created after running the docker file
 
+# Provide the name of the index
+index_name = "course-questions"
+
+
+######################## Create the RAG functions #####################
+
 # Create a search function for it
 def elastic_search(query):
     # Create the query
@@ -122,7 +128,7 @@ if prompt := st.chat_input("Say something"):
     st.session_state.messages.append({'role': 'user', 'content': prompt})
 
     # Add the response for the chat to user prompt
-    response = f'Echo: {prompt}'
+    response = rag(prompt)
     # Display assistant response
     with st.chat_message('assistant'):
         st.write_stream(response_display(response))
