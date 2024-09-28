@@ -1,5 +1,29 @@
 # LLM_Zoomcamp_Workshop
 
+### Dependencies for the project
+
+For the full rag system
+```
+pip install tqdm jupyter openai elasticsearch
+```
+
+To find the environmental variables
+```
+pip install python-dotenv
+```
+
+For the creation of the text embeddings
+
+```
+pip install -U sentence-transformers
+```
+Or with anaconda
+```
+conda install -c conda-forge sentence-transformers
+```
+
+
+
 ### Elastic Search
 
 To initialize a docker container in a local port use the following command
